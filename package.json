@@ -1,6 +1,5 @@
 {
-  "name": "nanokvm-usb",
-  "private": true,
+  "name": "nanokvm-usb-viewer",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
