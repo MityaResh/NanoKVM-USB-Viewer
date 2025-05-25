@@ -1,12 +1,12 @@
 import { Modal, Select } from "antd";
-
-import { isLoadingAtom, isOpenDeviceChooserAtom } from "@/jotai/settings.ts";
 import { useAtom, useAtomValue } from "jotai";
 import { useEffect, useState } from "react";
-import type { MediaDevice } from "@/types.ts";
-import { camera } from "@/libs/camera.ts";
+
 import { resolutionAtom, videoDeviceIdAtom } from "@/jotai/device.ts";
+import { isLoadingAtom, isOpenDeviceChooserAtom } from "@/jotai/settings.ts";
+import { camera } from "@/libs/camera.ts";
 import { resolutionParse } from "@/libs/helpers.ts";
+import type { MediaDevice } from "@/types.ts";
 
 export default function DeviceChooser() {
   const [isOpenDeviceChooser, setIsOpenDeviceChooser] = useAtom(

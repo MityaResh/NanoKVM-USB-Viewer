@@ -8,8 +8,8 @@ export const resolutionParse = (
 
 export const saveResolution = (resolution: string) => {
   localStorage.setItem("resolution", resolution);
-}
+};
 
 export const readResolution = () => {
   return localStorage.getItem("resolution") || "1920x1080";
-}
+};

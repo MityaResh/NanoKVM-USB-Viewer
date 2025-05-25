@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { MaximizeIcon, MinimizeIcon } from "lucide-react";
 import { FloatButton } from "antd";
+import { MaximizeIcon, MinimizeIcon } from "lucide-react";
+import { useEffect, useState } from "react";
 
 export const Fullscreen = () => {
   const [isFullscreen, setIsFullscreen] = useState(false);

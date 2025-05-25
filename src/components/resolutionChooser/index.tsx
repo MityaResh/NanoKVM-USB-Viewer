@@ -1,10 +1,10 @@
 import { Modal, Select } from "antd";
-
-import { isOpenResolutionAtom } from "@/jotai/settings.ts";
 import { useAtom } from "jotai";
-import { camera } from "@/libs/camera.ts";
+
 import { resolutionAtom } from "@/jotai/device.ts";
-import {resolutionParse, saveResolution} from "@/libs/helpers.ts";
+import { isOpenResolutionAtom } from "@/jotai/settings.ts";
+import { camera } from "@/libs/camera.ts";
+import { resolutionParse, saveResolution } from "@/libs/helpers.ts";
 
 export default function ResolutionChooser() {
   const [isOpenResolution, setIsOpenResolution] = useAtom(isOpenResolutionAtom);

@@ -1,13 +1,12 @@
-import { useEffect, useState } from "react";
 import { Result, Spin } from "antd";
-
-import { Menu } from "@/components/menu";
-import { camera } from "@/libs/camera.ts";
+import { useEffect, useState } from "react";
 
 import styles from "@/assets/index.module.css";
 import DeviceChooser from "@/components/deviceChooser";
+import { Menu } from "@/components/menu";
 import ResolutionChooser from "@/components/resolutionChooser";
-import {readResolution, resolutionParse} from "@/libs/helpers.ts";
+import { camera } from "@/libs/camera.ts";
+import { readResolution, resolutionParse } from "@/libs/helpers.ts";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);

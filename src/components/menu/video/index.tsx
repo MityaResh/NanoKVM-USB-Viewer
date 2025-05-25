@@ -1,6 +1,7 @@
 import { Dropdown, FloatButton } from "antd";
-import {ProportionsIcon, SettingsIcon, VideoIcon} from "lucide-react";
 import { useSetAtom } from "jotai";
+import { ProportionsIcon, SettingsIcon, VideoIcon } from "lucide-react";
+
 import {
   isOpenDeviceChooserAtom,
   isOpenResolutionAtom,
