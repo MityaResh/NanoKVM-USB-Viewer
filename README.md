@@ -21,6 +21,12 @@ npm install
 npm run dev
 ```
 
+## License
+
+This project is licensed under the GNU General Public License v3.0 (GPLv3).  
+You are free to use, modify, and distribute this software under the terms of the GPLv3.  
+See the [LICENSE](./LICENSE) file for more details.
+
 ## Acknowledgements
 
 - Parts of the code were based on and inspired by [sipeed/NanoKVM-USB](https://github.com/sipeed/NanoKVM-USB)
